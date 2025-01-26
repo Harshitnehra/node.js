@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 // MongoDB connection string (replace <username>, <password>, and <dbname> with your values)
 const uri = "mongodb://localhost:27017/hotels";
-
+// const uri = "mongodb+srv://harshit:Bhagmal@2001@cluster0.dibig.mongodb.net/"
 // Connect to MongoDB
 mongoose
   .connect(uri, {

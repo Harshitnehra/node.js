@@ -23,7 +23,16 @@ const personschema = new mongoose.Schema({
     type: Number,
     min: 0,              // Minimum value
     max: 120             // Maximum value
-  }
+  },
+  username: {
+    type: String,
+    required: true,
+    unique: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
 });
 
 // Create a model
